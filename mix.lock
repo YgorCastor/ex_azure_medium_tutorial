@@ -1,0 +1,9 @@
+%{
+  "castore": {:hex, :castore, "1.0.7", "b651241514e5f6956028147fe6637f7ac13802537e895a724f90bf3e36ddd1dd", [:mix], [], "hexpm", "da7785a4b0d2a021cd1292a60875a784b6caef71e76bf4917bdee1f390455cf5"},
+  "elixir_uuid": {:hex, :elixir_uuid, "1.2.1", "dce506597acb7e6b0daeaff52ff6a9043f5919a4c3315abb4143f0b00378c097", [:mix], [], "hexpm", "f7eba2ea6c3555cea09706492716b0d87397b88946e6380898c2889d68585752"},
+  "fresh": {:hex, :fresh, "0.4.4", "9d67a1d97112e70f4dfabd63b40e4b182ef64dfa84a2d9ee175eb4e34591e9f7", [:mix], [{:castore, "~> 1.0", [hex: :castore, repo: "hexpm", optional: false]}, {:mint, "~> 1.5", [hex: :mint, repo: "hexpm", optional: false]}, {:mint_web_socket, "~> 1.0", [hex: :mint_web_socket, repo: "hexpm", optional: false]}], "hexpm", "ba21d3fa0aa77bf18ca397e4c851de7432bb3f9c170a1645a16e09e4bba54315"},
+  "hpax": {:hex, :hpax, "0.2.0", "5a58219adcb75977b2edce5eb22051de9362f08236220c9e859a47111c194ff5", [:mix], [], "hexpm", "bea06558cdae85bed075e6c036993d43cd54d447f76d8190a8db0dc5893fa2f1"},
+  "jason": {:hex, :jason, "1.4.1", "af1504e35f629ddcdd6addb3513c3853991f694921b1b9368b0bd32beb9f1b63", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "fbb01ecdfd565b56261302f7e1fcc27c4fb8f32d56eab74db621fc154604a7a1"},
+  "mint": {:hex, :mint, "1.6.0", "88a4f91cd690508a04ff1c3e28952f322528934be541844d54e0ceb765f01d5e", [:mix], [{:castore, "~> 0.1.0 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}, {:hpax, "~> 0.1.1 or ~> 0.2.0", [hex: :hpax, repo: "hexpm", optional: false]}], "hexpm", "3c5ae85d90a5aca0a49c0d8b67360bbe407f3b54f1030a111047ff988e8fefaa"},
+  "mint_web_socket": {:hex, :mint_web_socket, "1.0.3", "aab42fff792a74649916236d0b01f560a0b3f03ca5dea693c230d1c44736b50e", [:mix], [{:mint, ">= 1.4.1 and < 2.0.0-0", [hex: :mint, repo: "hexpm", optional: false]}], "hexpm", "ca3810ca44cc8532e3dce499cc17f958596695d226bb578b2fbb88c09b5954b0"},
+}
